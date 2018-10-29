@@ -1,0 +1,136 @@
+/* GENERAL */
+body {
+    background: linear-gradient(90deg, rgba(202,242,241,1) 0%, rgba(238,224,201,1) 100%);
+}
+body::after {
+    background-repeat: repeat-y;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;   
+}
+
+/* SECTION NAVIGATION */
+.navigation {
+    max-width: 95vw;
+}
+.navigation__left img {
+    position: static;
+}
+.navigation a, .navigation img {
+    margin: 0 15%;
+}
+.navigation__left img {
+    width: 60%;
+}
+
+/* SECTION HEADER */
+.header {
+    margin-bottom: 0;
+}
+.header, .contact, .info, .more {
+    display: block;
+    margin-bottom: 50px;
+    max-width:90vw;
+}
+.header--small {
+    margin-top: 100px;
+}
+
+/* SECTION INFO */
+.info__text__third, .info__logo {
+    text-align: center;
+}
+.info__text__third * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* SECTION IDEA */
+.idea {
+    max-width: 80vw;
+}
+.idea__text {
+    flex: 2;
+}
+.idea__title {
+    flex: 1;
+}
+
+/* SECTION LIST */
+.list {
+    margin-top: 100px;
+}
+.list__item {
+    padding: 4%;
+}
+.list__item:nth-child(even) {
+    margin-left: -10%;
+}
+.list__item:nth-child(odd) {
+    margin-left: 10%;
+}
+.list h5:after {
+    margin: 3px 0;
+    width: 65%;
+}
+/* SECTION MORE */
+.more {
+    height: auto;
+    max-width:80vw;
+}
+.more__box:nth-of-type(1) {
+    margin-top: 100px;
+}
+.more__box:nth-of-type(2) {
+    margin-left: 0;
+    margin-top: 100px;
+}
+
+/* SECTION CONTACT */
+.contact {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: auto;
+}
+.contact__text {
+    text-align: center;
+    padding: 0;
+}
+input[type="text"], 
+[type="email"], 
+[type="number"], 
+textarea {
+    width: 50vw;
+}
+
+/* SECTION FOOTER */
+.footer {
+    height: auto;
+}
+.footer, .footer__middle {
+    display: flex;
+    flex-direction: column;
+}
+.footer__middle a {
+    padding: 10px;
+}
+.footer__left {
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.footer__left img {
+    margin-bottom: 20px;
+}
+.footer__left, .footer__right {
+    margin: 5% auto;
+}
+.icons {
+    display: flex;
+}
+.icons a {
+    margin: 10px 20px;
+}
